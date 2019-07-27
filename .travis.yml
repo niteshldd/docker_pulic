@@ -1,0 +1,12 @@
+sudo: required
+services:
+  - docker
+
+
+before_install:
+  - docker build -t niteshldd/docker-public -f Dockerfile.dev .
+
+
+
+script:
+  - docker run niteshldd/docker-public npm run test -- --coverage
