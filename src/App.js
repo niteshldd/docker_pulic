@@ -8,8 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> I have changesd my name to huchku
-        </p>
+          Edit <code>src/App.js</code> I have  CHANGED TO FEATURE BRANCH   </p>
         <a
           className="App-link"
           href="https://reactjs.org"
