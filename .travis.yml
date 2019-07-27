@@ -9,4 +9,4 @@ before_install:
 
 
 script:
-  - docker run niteshldd/docker-public npm run test -- --coverage
+  - docker run niteshldd/docker-public npm test
